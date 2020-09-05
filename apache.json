@@ -9,7 +9,7 @@
         "access_key": "{{user `aws_access_key`}}",
         "secret_key": "{{user `aws_secret_key`}}",
         "region": "{{user `region`}}",
-        "ami_name": "apache",
+        "ami_name": "{{user `ami_name`}}",
         "instance_type": "t2.micro",
         "source_ami_filter": {
             "filters": {
